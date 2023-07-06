@@ -12,6 +12,8 @@
 
 int _printf(const char *format, ...)
 {
+	char *a;
+
 	/* Define Variables */
 	va_list args;
 	int x, length;
@@ -25,6 +27,11 @@ int _printf(const char *format, ...)
 	/* Print characters */
 	while (format != NULL && format[x] != '\0')
 	{
+		if (x == "%")
+		{
+			a = (format[x] + 1);
+			putchar(a);
+		}
 		putchar(format[x]);
 		x++;
 	}
