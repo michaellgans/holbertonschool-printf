@@ -5,12 +5,12 @@
  * @arg: user's input
  */
 
-void formatCharacter(void* arg)
+void formatCharacter(void *arg)
 {
 	int x;
-	char* var;
+	char *var;
 
-	var = (char*)arg;
+	var = (char *)arg;
 	for (x = 0; var[x] != '\0'; x++)
 		putchar(var[x]);
 }
@@ -18,12 +18,12 @@ void formatCharacter(void* arg)
  * formatString - intakes integer's and changes to char
  * @arg: user's input
  */
-void formatString(void* arg)
+void formatString(void *arg)
 {
 	int x;
-	char* var;
+	char *var;
 
-	var = (char*)arg;
+	var = (char *)arg;
 	for (x = 0; var[x] != '\0'; x++)
 		putchar(var[x]);
 }
@@ -31,12 +31,12 @@ void formatString(void* arg)
  * formatDecimal - takes printf input to data type decimal
  * @arg: user's input
  */
-void formatDecimal(void* arg)
+void formatDecimal(void *arg)
 {
 	int x;
-	char* var;
+	char *var;
 
-	var = (int*)arg;
+	var = (int *)arg;
 	for (x = 0; var[x] != '\0'; x++)
 	putchar(var[x]);
 }
@@ -44,12 +44,12 @@ void formatDecimal(void* arg)
  * formatInteger - takes printf input to data type int
  * @arg: user's input
  */
-void formatInteger(void* arg)
+void formatInteger(void *arg)
 {
 	int x;
-	char* var;
+	char *var;
 
-	var = (int*)arg;
+	var = (int *)arg;
 	for (x = 0; var[x] != '\0'; x++)
 		putchar(var[x]);
 }
