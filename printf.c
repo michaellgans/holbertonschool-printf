@@ -25,6 +25,11 @@ int _printf(const char *format, ...)
 	/* Print characters */
 	while (format != NULL && format[x] != '\0')
 	{
+		if (x == '%')
+		{
+			x++;
+			putchar(x);
+		}
 		putchar(format[x]);
 		x++;
 	}
