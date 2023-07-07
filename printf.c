@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 	{
 		if (x == "%")
 		{
-			a = (format[x] + 1);
+			a = (format[x + 1]);
 			putchar(a);
 		}
 		putchar(format[x]);
