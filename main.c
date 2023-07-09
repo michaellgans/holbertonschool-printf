@@ -1,6 +1,8 @@
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
+#include <stdarg.h>
 
 /**
  * main - Entry point
@@ -9,10 +11,10 @@
  */
 int main(void)
 {
-	char name;
+	char grade;
 
-	name = Chris;
-	_printf("Hello %s\n", name);
+	grade = 'A';
+	_printf("Your grade is: %c\n", grade);
 
 	return (0);
 }
