@@ -5,35 +5,45 @@
 #include "main.h"
 
 /**
- * _printf - prints user input
- * @format: specifies that format of the input given
- * Return: Length of string
+ * _printf - Prints user input.
+ * @format: Specifies the format of the input given.
+ * Return: Length of string printed.
  */
 
 int _printf(const char *format, ...)
 {
 	/* Define Variables */
 	va_list args;
-	int x, length;
+	int x, y, length;
+	char id;
+
 	/* Initializing Varaibles */
-	va_start(args, format);
 	x = 0;
 	length = strlen(format);
-	/* Look for next argument */
-	/* va_arg(args, int); */
+	va_start(args, format);
 
-	/* Print characters */
-	while (format != NULL && format[x] != '\0')
+	while (format[x] != '\0')
 	{
-		if (x == '%')
+		if (format[x] == '%')
 		{
-			a = (format[x + 1]);
-			putchar(a);
+			/* Looking at character after % */
+			id = (format[x + 1]);
 
+			for (y = 0; y < sizeof(structArray) / sizeof(structArray[0]); y++)
+			{
+				if (structArray[y].operationPointer == operationPointer)
+				{
+					structArray[y].functionPointer(args);
+					break;
+				}
+			}
+			/* Doesn't print character */
 			x++;
-			putchar(x);
 		}
-		putchar(format[x]);
+		else
+		{
+        		putchar(format[x]);
+		}
 		x++;
 	}
 	/* Finish looking for next variable */

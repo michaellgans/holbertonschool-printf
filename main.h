@@ -2,24 +2,24 @@
 #define MAIN_H
 
 /**
- * struct format - Structure for _printf.
+ * struct formatStructure - Structure for _printf.
  *
- * @id: Indicates which format to use.
- * @fc: Associated function.
+ * @operationPointer: Indicates which format to use.
+ * @functionPointer: Associated function.
+ *
+ * Description: longer description
+ *
  */
 
-typedef struct format
+typedef struct formatStructure
 {
-	char *id;
-	int (*fc)(void *arg);
-} format_t;
+	char *operationPointer;
+	int (*functionPointer)(va_list args);
+} structNickname;
 
 /* Prototypes */
 
 int _printf(const char *format, ...);
-void formatCharacter(void *arg);
-void formatString(void *arg);
-void formatDecimal(void *arg);
-void formatInteger(void *arg);
+void formatCharacter(void *args);
 
 #endif

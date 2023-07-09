@@ -4,31 +4,25 @@
 
 /**
  * get_function - Points to the corresponding function in formatFunction.
- * @id: Function indicator
+ * @symbol: Function indicator
  * Return: 0
  */
 
-int (*get_function(char *id))(void *arg)
+int (*get_function(char *symbol))(va_list args)
 {
-	format_t ids[] = {
+	/* Declare Variables */
+	int x = 0;
+
+	structNickname structArray[] = {
 		{"c", formatCharacter},
-		{"s", formatString},
-		{"d", formatDecimal},
-		{"i", formatInteger},
 		{NULL, NULL}
 	};
-
-	/* Find associated function by searching for the indicator. */
-	int x;
-
-	x = 0;
-
 	/* While the index of op does not = the sentinal value NULL. */
-	while (ids[x].id != NULL)
+	while (structArray[x].operationPointer != NULL)
 	{
 		/* Do this action. */
-		if (strcmp(s, ids[x].id) == 0)
-			return (ids[x].fc);
+		if (strcmp(symbol, structArray[x].operationPointer) == 0)
+			return (structArray[x].functionPointer);
 		x++;
 	}
 
