@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 			/* Looking at character after % */
 			id = (format[x + 1]);
 
-			for (y = 0; y < sizeof(structArray) / sizeof(structArray[0]); y++)
+			for (y = 0; y < sizeof(format) / sizeof(format[0]); y++)
 			{
 				if (structArray[y].operationPointer == operationPointer)
 				{
@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-        		putchar(format[x]);
+			putchar(format[x]);
 		}
 		x++;
 	}
