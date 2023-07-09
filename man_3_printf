@@ -1,0 +1,41 @@
+.TH PRINTF 1 2023-07-09
+
+.SH NAME
+prinft \- Custom prinf() function
+
+.SH SYNOPSIS
+.B printf
+[c]
+[d]
+[i]
+[s]
+
+.SH DESCRIPTION
+.B printf
+is a sample script which takes a user's input and prints out a string.
+
+.SH OPTIONS
+.TP
+.BR [c]
+Recieves to users input and prints back a single character input within a string.
+.TP
+.BR [d]
+Recieves the users input and prints back a floating point number within a string. (number witha decimal)
+.TP
+.BR [i]
+Recieves the users input and prints back an interger within a string.
+.TP
+.BR [s]
+Recieves the users input and prints back multiplue characters within a string.
+
+.SH FILES
+.TP
+.I /holbertonschool/printf.c
+.I /holbertonschool/format_functions.c
+.I /holbertsonschool/get_function.c
+.I /holbertsonschool/main.c
+.I /holbertonschool/main.h
+.I /holbertsonschool/README.md
+
+.SH AUTHOR
+Michael Gans and Chris Gillis (chris85gillis@gmail.com)
