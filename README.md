@@ -36,7 +36,7 @@
 		
 ![printf example](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/dbe73473-65f1-4a0f-bef7-34052848b467)
 
-The above image is an example of what our printf function can do. **minus the float type**
+**The above image is an example of what our printf function can do. (minus the float type)**
 
 *************
 # Created by...
@@ -52,10 +52,14 @@ The above image is an example of what our printf function can do. **minus the fl
 		different syntax from other calculations to build formatting descriptions. In this example,
 		the format is specified on line 601, and the WRITE command refers to it by line number:
 
+
+*![History of Printf](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/038bd870-1aab-4c2d-8cb5-cf4c9b32d7db)
+
 		
 		ALGOL 68 had more function-like API, but still used special syntax (the $ delimiters 
 		surround special formatting syntax):
 
+![History of Printf 2](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/b8dc6dc4-096a-4610-bbc8-b7c6c51a2fe4)
 
 		But using the normal function calls and data types simplifies the language and compiler,
 		and allows the implementation of the input/output to be written in the same language.
@@ -67,11 +71,12 @@ The above image is an example of what our printf function can do. **minus the fl
 		the escape sequence \n) and the order of the format specification's field width and type
 		is reversed in writef:[1]
 
+![History of Printf 3](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/f9b04df8-b9cb-4c5c-a1b1-7a56000e57e7)
 
 		Probably the first copying of the syntax outside the C language was the Unix printf shell command,
 		which first appeared in Version 4, as part of the port to C.[2]
 
-			-https://en.wikipedia.org/wiki/Printf#History-
+			[HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf#History-)
 
 flowchart?
 differences between this printf and printf?
