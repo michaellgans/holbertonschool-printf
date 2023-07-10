@@ -9,6 +9,8 @@
 		more information on this version of printf. To create this project some of the
 		tools we used were variadic functions, pointers, structures and typedef. 
 
+		![An example of a printf function](https://upload.wikimedia.org/wikipedia/commons/2/2c/Printf.svg)
+
 *********************************
 # Why did we create this project...
 
