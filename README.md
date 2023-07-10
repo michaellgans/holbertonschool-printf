@@ -36,6 +36,8 @@
 		
 ![printf example](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/dbe73473-65f1-4a0f-bef7-34052848b467)
 
+The above image is an example of what our printf function can do. **minus the float type**
+
 *************
 # Created by...
 
