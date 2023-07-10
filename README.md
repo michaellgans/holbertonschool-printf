@@ -28,7 +28,16 @@
 [PRINTF REPOSITORY FILES](https://github.com/michaellgans/holbertonschool-printf)
 
 		- Once downloaded you can add these files to your own set of libraries
-		in order to use our version of printf.
+		in order to use this version of printf.
+
+		- After files are placed in whatever project your wanting to use it in
+		you can compile it by using the following:
+
+			gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+
+		- Link the function...
+
+		- Use the function...
 
 
 *******************************
