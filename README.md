@@ -26,7 +26,8 @@
 
 [PRINTF REPOSITORY FILES](https://github.com/michaellgans/holbertonschool-printf)
 
-		- Once downloaded you can add these files to your own set of libraries in order to use our version of printf.
+		- Once downloaded you can add these files to your own set of libraries
+		in order to use our version of printf.
 
 
 *************************************
@@ -45,16 +46,16 @@
 		
 ![printf example](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/dbe73473-65f1-4a0f-bef7-34052848b467)
 
-**The above image is an example of what our printf function can do. (minus the float type)**
+		*The above image is an example of what our printf function can do. (minus the float type)
 
 
 ************************************************************
 # differences between this printf and the original printf...
 
                 - The main difference between our printf and the original really boils down to the amount 
-                of functionality the orginial can porcess. We created our printf in just four days and did
-                not have the time to match what the original can do. Maybe this is something that we can
-                process and keep working on to make it comparable to the original.
+		of functionality the orginial can process. We created our printf in just four days and did
+		not have the time to match what the original can do. Maybe this is something that we can
+		keep working on to make it comparable to the original.
 
 
 ********************
