@@ -5,10 +5,10 @@ prinft \- Custom prinf() function
 
 .SH SYNOPSIS
 .B printf
-[c]
-[d]
-[i]
-[s]
+[%c]
+[%d]
+[%i]
+[%s]
 
 .SH DESCRIPTION
 .B printf
@@ -16,8 +16,9 @@ is a sample script which takes a user's input and prints out a string.
 
 .SH OPTIONS
 .TP
-.BR [c]
-Recieves to users input and prints back a single character input within a string.
+.BR [%c]
+formatCharacter - Assigns the variable x the value of the next argument passed to it by the main, then utilizes _putchar to print each character one at a time.
+
 .TP
 .BR [d]
 Recieves the users input and prints back a floating point number within a string. (number witha decimal)
