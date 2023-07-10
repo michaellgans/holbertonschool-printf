@@ -7,16 +7,17 @@
  * get_function - retrieves the function to use
  * @symbol: format specifyer
  * Return: 0
+ *
+ * struct structNickname - typedef
  */
 
 int (*get_function(char *symbol))(va_list args)
 {
 	/* Declare Variables */
 	int x = 0;
-
 	structNickname structArray[] = {
 		{"c", formatCharacter},
-		{NULL, NULL}
+		{NULL, NULL},
 	};
 	/* While the index of op does not = the sentinal value NULL. */
 	while (structArray[x].operationPointer != NULL)

@@ -11,7 +11,7 @@
 typedef struct formatStructure
 {
 	char *operationPointer;
-	int (*functionPointer)();
+	int (*functionPointer)(va_list args);
 } structNickname;
 
 /* Prototypes */
