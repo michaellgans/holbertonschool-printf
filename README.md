@@ -59,7 +59,7 @@
 		ALGOL 68 had more function-like API, but still used special syntax (the $ delimiters 
 		surround special formatting syntax):
 
-![History of Printf 2](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/b8dc6dc4-096a-4610-bbc8-b7c6c51a2fe4)
+![History of Printf 2](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/484673a6-8e22-4776-a87f-ba23857e0804)
 
 		But using the normal function calls and data types simplifies the language and compiler,
 		and allows the implementation of the input/output to be written in the same language.
@@ -76,7 +76,7 @@
 		Probably the first copying of the syntax outside the C language was the Unix printf shell command,
 		which first appeared in Version 4, as part of the port to C.[2]
 
-			[HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf#History-)
+[HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf)
 
 flowchart?
 differences between this printf and printf?
