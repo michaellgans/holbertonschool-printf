@@ -3,8 +3,11 @@
 ***********************
 What is this project...
 
-		- In this project we have created our own version of the printf function. This function will produce an output according to a format, 
-		and handle specific convertion specifiers. We also created a man page for the function to help give more information on this version				of printf. To create this project some of the tools we used were variadic functions, pointers, structures and typedef. 
+		- In this project we have created our own version of the printf function.
+		This function will produce an output according to a format, and handle specific 
+		convertion specifiers. We also created a man page for the function to help give
+		more information on this version of printf. To create this project some of the
+		tools we used were variadic functions, pointers, structures and typedef. 
 
 *********************************
 Why did we create this project...
