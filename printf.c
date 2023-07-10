@@ -13,12 +13,11 @@ int _printf(const char *format, ...)
 		{"%c", formatCharacter},
 		{"%i", formatNumber},
 		{"%d", formatNumber},
-		{"%%", print_37},
-		{NULL, NULL}
+		{"%%", print_37}
 	};
 
 	va_list args;
-	int x, y, length = 0;
+	int x = 0, y, length = 0;
 
 	va_start(args, format);
 
@@ -31,7 +30,7 @@ Here:
 		y = 4;
 		while (y >= 0)
 		{
-			if (a[y].convPtr[0] == format[x] && a[y].convPtr[0] == format[x + 1])
+			if (a[y].convPtr[0] == format[x] && a[y].convPtr[1] == format[x + 1])
 			{
 				length += a[y].funcPtr(args);
 				x = x + 2;

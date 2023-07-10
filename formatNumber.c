@@ -9,9 +9,8 @@
 int formatNumber(va_list args)
 {
 	int n = va_arg(args, int);
-	int num, last = n % 10;
-	int digit, exp = 1;
-	int x = 0;
+	int num, last = n % 10, digit, exp = 1;
+	int x = 1;
 
 	n = n / 10;
 	num = n;

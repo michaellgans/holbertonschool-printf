@@ -14,7 +14,7 @@
  * @funcPtr: points to the function used to format.
  */
 
-typedef struct convStruct
+typedef struct format
 {
 	char *convPtr;
 	int (*funcPtr)();
