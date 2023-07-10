@@ -1,7 +1,7 @@
 # holbertonschool-printf
 
 ***********************
-# What is this project...
+# what is this project...
 
 		- In this project we have created our own version of the printf function.
 		This function will produce an output according to a format, and handle specific 
@@ -10,7 +10,7 @@
 		tools we used were variadic functions, pointers, structures and typedef. 
 
 *********************************
-# Why did we create this project...
+# why did we create this project...
 
 		- We wanted to teach ourselves how to create our own function by taking the printf
 		function and making it our own. This is surface level recreation of printf where we
@@ -18,16 +18,16 @@
 		to work correctly.
 
 *************************
-# How to install...
+# how to install...
 
 		-You can extract the files from... 
 
-[printf repository](https://github.com/michaellgans/holbertonschool-printf)
+[PRINTF REPOSITORY FILES](https://github.com/michaellgans/holbertonschool-printf)
 
-		-Once downloaded you can add these to your own set of libraries in order to use our version of printf.
+		-Once downloaded you can add these files to your own set of libraries in order to use our version of printf.
 
 *************************************
-# How to use (with examples)...
+# how to use (with examples)...
 
 		-We programed certain format specifiers that can be used in our version of printf.
 		As this is not a fully fleshed out function like the original we only support the 
@@ -45,14 +45,14 @@
 **The above image is an example of what our printf function can do. (minus the float type)**
 
 *************
-# Created by...
+# created by...
 
 		- This project was created by Michael Gans and Chris Gillis. If you would like to get
 		a hold of them please reach out via email to either chris85gillis@gmail.com or
 		_______
 
 ********************
-# History of Printf...
+# history of printf...
 
 		-Early programming languages such as Fortran used special statements with completely
 		different syntax from other calculations to build formatting descriptions. In this example,
@@ -87,8 +87,9 @@
 		which first appeared in Version 4, as part of the port to C.[2]
 
 
-Source Material Credit: [HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf)
+Source Material Credit: [HISTORY OF PRINTF](https://en.wikipedia.org/wiki/Printf)
 
 
 flowchart?
-differences between this printf and printf?
+
+# differences between this printf and the original printf...
