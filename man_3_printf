@@ -1,7 +1,7 @@
 .TH PRINTF 1 2023-07-09
 
 .SH NAME
-prinft \- Custom prinf() function
+holbertonschool_prinft \- A custom prinf() function
 
 .SH SYNOPSIS
 .B printf
@@ -9,10 +9,11 @@ prinft \- Custom prinf() function
 [%d]
 [%i]
 [%s]
+[strlenHelper]
 
 .SH DESCRIPTION
 .B printf
-is a sample script which takes a user's input and prints out a string.
+function formats and prints a series of characters or values to the standard output stream stdout . Format specifications, beginning with a percent sign (%), determine the output format for any argument-list following the format-string.
 
 .SH OPTIONS
 .TP
@@ -28,14 +29,22 @@ Recieves the users input and prints back an interger within a string.
 .TP
 .BR [s]
 Recieves the users input and prints back multiplue characters within a string.
+.TP
+.BR [strlenHelper]
+Returns the length of a given string for char and const char as needed.
 
 .SH FILES
 .TP
 .I /holbertonschool/printf.c
+
 .I /holbertonschool/format_functions.c
+
 .I /holbertsonschool/get_function.c
+
 .I /holbertsonschool/main.c
+
 .I /holbertonschool/main.h
+
 .I /holbertsonschool/README.md
 
 .SH AUTHOR

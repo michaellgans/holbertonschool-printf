@@ -20,6 +20,8 @@
 *************************
 # How to install...
 
+		-You can extract the files from [printf repository](https://github.com/michaellgans/holbertonschool-printf)
+
 *************************************
 # How to use (with examples)...
 
