@@ -15,7 +15,8 @@ int _printf(const char *format, ...)
 	/* Define Variables */
 	va_list args;
 	int x, y, length;
-	char id;
+	char operationPointer;
+	structNickname structArray;
 
 	/* Initializing Varaibles */
 	x = 0;
@@ -27,7 +28,7 @@ int _printf(const char *format, ...)
 		if (format[x] == '%')
 		{
 			/* Looking at character after % */
-			id = (format[x + 1]);
+			operationPointer = (format[x + 1]);
 
 			for (y = 0; y < sizeof(structArray) / sizeof(structArray[0]); y++)
 			{
@@ -42,7 +43,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-        		putchar(format[x]);
+			putchar(format[x]);
 		}
 		x++;
 	}

@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdarg.h>
 
 /**
- * get_function - Points to the corresponding function in formatFunction.
- * @symbol: Function indicator
+ * get_function - retrieves the function to use
+ * @symbol: format specifyer
  * Return: 0
  */
 
