@@ -9,8 +9,6 @@
 		more information on this version of printf. To create this project some of the
 		tools we used were variadic functions, pointers, structures and typedef. 
 
-		![An example of a printf function](https://upload.wikimedia.org/wikipedia/commons/2/2c/Printf.svg)
-
 *********************************
 # Why did we create this project...
 
@@ -35,6 +33,8 @@
 
 		-Upon successful return, all functions return the number of characters written,
 		excluding the terminating null character used to end the string.
+		
+![printf example](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/dbe73473-65f1-4a0f-bef7-34052848b467)
 
 *************
 # Created by...
