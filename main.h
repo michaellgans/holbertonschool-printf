@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 /**
- * struct convStruct - links conversion identifier to function used.
+ * struct format - links conversion identifier to function used.
  * @convPtr: points to the identifier used to format.
  * @funcPtr: points to the function used to format.
  */
@@ -18,7 +18,7 @@ typedef struct format
 {
 	char *convPtr;
 	int (*funcPtr)();
-} structNickname;
+} Nickname;
 
 /* Prototypes */
 int _printf(const char *format, ...);

@@ -8,7 +8,7 @@
 
 int _printf(const char *format, ...)
 {
-	structNickname a[] = {
+	Nickname a[] = {
 		{"%s", formatString},
 		{"%c", formatCharacter},
 		{"%i", formatNumber},
