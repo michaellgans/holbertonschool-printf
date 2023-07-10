@@ -81,7 +81,7 @@
 		which first appeared in Version 4, as part of the port to C.[2]
 
 
-		Source Material Credit: [HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf)
+Source Material Credit: [HistoryOfPrintf](https://en.wikipedia.org/wiki/Printf)
 
 
 flowchart?
