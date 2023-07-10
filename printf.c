@@ -1,54 +1,48 @@
-#include <limits.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdarg.h>
 #include "main.h"
 
 /**
- * struct structNickname - formats the argument based on the char after %.
- *
- * _printf - Prints user input.
- * @format: Specifies the format of the input given.
- * Return: Length of string printed.
+ * _printf - Prints a string to stdout, and formats it as instructed by user.
+ * @format: string to be printed
+ * Return: number of characters printed
  */
+
 int _printf(const char *format, ...)
 {
-	/* Define Variables */
-	va_list args;
-	int x;
-	size_t y;
-	char operationPointer;
-	struct formatStructure structArray[] = {
-		{"c", formatCharacter},
+	structNickname a[] = {
+		{"%s", formatString},
+		{"%c", formatCharacter},
+		{"%i", formatNumber},
+		{"%d", formatNumber},
+		{"%%", print_37},
 		{NULL, NULL}
 	};
-	/* Initializing Varaibles */
-	x = 0;
+
+	va_list args;
+	int x, y, length = 0;
+
 	va_start(args, format);
-	/* Search for % */
+
+	if (format == NULL || (format[0] == '%' && format[1] == '\0'))
+		return (-1);
+
+Here:
 	while (format[x] != '\0')
 	{
-		if (format[x] == '%')
+		y = 4;
+		while (y >= 0)
 		{
-			/* Looking at character after % */
-			operationPointer = (format[x + 1]);
-			for (y = 0; structArray[y].operationPointer != NULL; y++)
+			if (a[y].convPtr[0] == format[x] && a[y].convPtr[0] == format[x + 1])
 			{
-				if (strcmp(structArray[y].operationPointer, &operationPointer) == 0)
-				{
-					structArray[y].functionPointer(args);
-					break;
-				}
+				length += a[y].funcPtr(args);
+				x = x + 2;
+				goto Here;
 			}
-			/* Doesn't print character */
-			x++;
+			y--;
 		}
-		else
-			putchar(format[x]);
+		_putchar(format[x]);
+		length++;
 		x++;
 	}
-	/* Finish looking for next variable */
 	va_end(args);
-	/* Return length of string printed */
-	return (x);
+	return (length);
 }
