@@ -1,25 +1,26 @@
 # holbertonschool-printf
 
-***********************
+*************************
 # what is this project...
 
-		- In this project we have created our own version of the printf function.
-		This function will produce an output according to a format, and handle specific 
-		convertion specifiers. We also created a man page for the function to help give
-		more information on this version of printf. To create this project some of the
-		tools we used were variadic functions, pointers, structures and typedef. 
+		- This project involves the development of a custom printf function. Our goal was to
+		create a function that generates an output based on a specific format and handles various
+		conversion specifiers. In addition, we crafted a comprehensive man page to provide detailed
+		information about this customized printf implementation. To accomplish this, we leveraged tools
+		such as variadic functions, pointers, structures, and typedefs.
 
 
-*********************************
+***********************************
 # why did we create this project...
 
-		- We wanted to teach ourselves how to create our own function by taking the printf
-		function and making it our own. This is surface level recreation of printf where we
-		have learned a lot about what all it takes to write script for a function to be able
-		to work correctly.
+		- The purpose of creating this project was to gain hands-on experience in developing our
+		own function by customizing the printf function. Through this endeavor, we aimed to deepen
+		our understanding of the intricacies involved in writing code for a function to ensure its
+		proper functionality. By embarking on this surface-level recreation of printf, we have acquired
+		valuable insights and knowledge about the various aspects required to create a well-working function.
 
 
-*************************
+*******************
 # how to install...
 
 		- You can extract the files from... 
@@ -30,7 +31,7 @@
 		in order to use our version of printf.
 
 
-*************************************
+*******************************
 # how to use (with examples)...
 
 		- We programed certain format specifiers that can be used in our version of printf.
@@ -52,13 +53,14 @@
 ************************************************************
 # differences between this printf and the original printf...
 
-                - The main difference between our printf and the original really boils down to the amount 
-		of functionality the orginial can process. We created our printf in just four days and did
-		not have the time to match what the original can do. Maybe this is something that we can
-		keep working on to make it comparable to the original.
+                - The primary distinction between our printf implementation and the original version
+		lies in the level of functionality they offer. Given the time constraints, our printf
+		was developed with a limited set of features and may not match the full capabilities of
+		the original printf. However, there is potential for further development to enhance our
+		printf and bring it closer to the level of functionality offered by the original version.
 
 
-********************
+**********************
 # history of printf...
 
 		- Early programming languages such as Fortran used special statements with completely
@@ -97,7 +99,7 @@
 Source Material Credit: [HISTORY OF PRINTF](https://en.wikipedia.org/wiki/Printf)
 
 
-*************
+***************
 # created by...
 
                 - This project was created by Michael Gans and Chris Gillis. If you would like to get
