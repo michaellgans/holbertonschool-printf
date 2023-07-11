@@ -1,4 +1,6 @@
-# _printf()
+<p align="center">
+	<# _printf()/>
+</p>
 *************************
 # what is this project...
 
