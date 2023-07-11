@@ -1,5 +1,5 @@
 <p align="center">
-	<# _printf()/>
+# _printf()
 </p>
 *************************
 # what is this project...
