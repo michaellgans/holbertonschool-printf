@@ -10,42 +10,65 @@ holbertonschool_prinft \- A custom prinf() function
 [%i]
 [%s]
 [strlenHelper]
+[_putchar]
+[print_37]
 
 .SH DESCRIPTION
 .B printf
-function formats and prints a series of characters or values to the standard output stream stdout . Format specifications, beginning with a percent sign (%), determine the output format for any argument-list following the format-string.
+function formats and prints a series of characters or values to the standard output stream stdout. Format specifications, beginning with a percent sign (%), determine the output format for any argument-list following the format-string.
 
 .SH OPTIONS
 .TP
 .BR [%c]
-formatCharacter - Assigns the variable x the value of the next argument passed to it by the main, then utilizes _putchar to print each character one at a time.
+formatCharacter - Utilizes _putchar to print each character one at a time.
 
 .TP
-.BR [d]
-Recieves the users input and prints back a floating point number within a string. (number witha decimal)
+.BR [%d]
+formatNumber - (decimal, but not a float) Distinguishes between negative and positive numbers, then prints out with _putchar each digit of the number (last) by dividing by 10 and keeping track of the number of digits (exp).
+
 .TP
-.BR [i]
-Recieves the users input and prints back an interger within a string.
+.BR [%i]
+formatNumber - (integer) Distinguishes between negative and positive numbers, then prints out with _putchar each digit of the number (last) by dividing by 10 and keeping track of the number of digits (exp).
+
 .TP
-.BR [s]
-Recieves the users input and prints back multiplue characters within a string.
+.BR [%s]
+formatString - Prints the string passed to it using _putchar one character at a time with a pointer, moving through the string iteritively.
+
 .TP
-.BR [strlenHelper]
-Returns the length of a given string for char and const char as needed.
+.BR [strlenHelper] 
+Custom functions that mimic strlen() and strlenc().
+
+.TP
+.BR [_putchar] 
+Custom function that mimics putchar.
+
+.TP
+.BR [print_37]
+Prints a single % using _putchar().
 
 .SH FILES
 .TP
-.I /holbertonschool/printf.c
+.I /holbertonschool-printf/
 
-.I /holbertonschool/format_functions.c
+.I /holbertsonschool-printf/printf.c
 
-.I /holbertsonschool/get_function.c
+.I /holbertsonschool-printf/formatCharacter.c
 
-.I /holbertsonschool/main.c
+.I /holbertsonschool-printf/formatNumber.c
 
-.I /holbertonschool/main.h
+.I /holbertsonschool-printf/formatString.c
+
+.I /holbertsonschool-printf/main.h
+
+.I /holbertsonschool-printf/strlenHelper.c
+
+.I /holbertsonschool-printf/main.c
+
+.I /holbertsonschool-printf/print_37.c
+
+.I /holbertsonschool-printf/_putchar.c
 
 .I /holbertsonschool/README.md
 
 .SH AUTHOR
-Michael Gans and Chris Gillis (chris85gillis@gmail.com)
+Michael Gans (michaellgans@hotmail.com) and Chris Gillis (chris85gillis@gmail.com)
