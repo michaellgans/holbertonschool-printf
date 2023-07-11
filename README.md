@@ -1,18 +1,17 @@
-<p align="center">
-# _printf()
-</p>
-*************************
-# what is this project...
+<center># _printf()</center>
 
-		- This project involves the development of a custom printf function. Our goal was to
-		create a function that generates an output based on a specific format by interpreting various
-		conversion specifiers. To accomplish this, we leveraged tools such as variadic functions,
-  		pointers, structures, and typedefs.  In addition, we authored a comprehensive man page to
-    		provide detailed information about the inner workings of this customized function. 
+*************************
+# What is this project...
+
+		- This project involves the development of a custom printf function. Our goal was to create a 
+  		function that generates an output based on a specific format by interpreting various conversion 
+    		specifiers. To accomplish this, we leveraged tools such as variadic functions, pointers, 
+      		structures, and typedefs.  In addition, we authored a comprehensive man page to provide detailed 
+		information about the inner workings of this customized function. 
 
 
 ********************************
-# requirements for this project...
+# Requirements for this project...
 
 		- Allowed editors: vi, vim, emacs
 		- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror
@@ -45,7 +44,7 @@
 *******************
 # how to install...
 
-		- You can download the files from our [github repository.](https://github.com/michaellgans/holbertonschool-printf)
+You can download the files from our [github repository.](https://github.com/michaellgans/holbertonschool-printf)
 
 		- Once downloaded you can add these files to your working directory in order to use this
   		version of printf.
@@ -54,13 +53,13 @@
 
 			gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
-		- In your main program or other functions, you can now call the installed function by its 
-  		name (_printf).  The function will execute its defined code and will return the length of 
-    		the printed string if successful.
+		- In your main program or other functions, you can now call the installed function by its name 
+  		(_printf).  The function will execute its defined code and will return the length of the printed 
+    		string if successful.
 
 
 *******************************
-# how to use (with examples)...
+# How to use _printf()...
 
 		- As this is not the origional printf() function, we only support the following types
   		of format specifiers:
@@ -69,17 +68,16 @@
 			%c = single character
 			%s = string of characters
 
-		- Upon successful return, all functions return the number of characters written,
-		excluding the terminating null character ('\0') used to end the string.
-  ****************************************
+		- Upon successful return, all functions return the number of characters written, excluding the 
+  		terminating null character ('\0') used to end the string.
   
-	The following is a flowchart depicting the process path of _printf().
+<center>The following is a flowchart depicting the process path of _printf().</center>	
 
-  ![Flowchart for _printf()](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/d7288859-ce54-41b2-8f95-e04d5681a6dd)
+![Flowchart for _printf()](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/b0dc8d04-b24b-425e-b147-84cbab2be194)
 
-	The following is a diagram visualizing the theory behind variadic functions.
- 
-![Variadic Machine](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/6a16b148-63d5-46bf-82c7-f39f37ba5335)
+<center>The following is a diagram visualizing the theory behind variadic functions.</center>
+
+![Variadic Machine](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/f49eff86-5bfb-4f81-8445-2744bd4ed734)
 
 ********************************************
 # differences between this printf and the original printf...
@@ -123,11 +121,12 @@
 ![History of Printf 3](https://github.com/michaellgans/holbertonschool-printf/assets/126268722/f9b04df8-b9cb-4c5c-a1b1-7a56000e57e7)
 
 
-		Probably the first copying of the syntax outside the C language was the Unix printf shell command,
-		which first appeared in Version 4, as part of the port to C.[2]
+		Probably the first copying of the syntax outside the C language was the Unix printf shell 
+  		command, which first appeared in Version 4, as part of the port to C.[2]
 
 
 Source Material Credit: [HISTORY OF PRINTF](https://en.wikipedia.org/wiki/Printf)
+Origional printf() Code: [printf() code](http://sourceware.org/git/?p=glibc.git;a=blob;f=stdio-common/printf.c;h=4c8f3a2a0c38ab27a2eed4d2ff3b804980aa8f9f;hb=3321010338384ecdc6633a8b032bb0ed6aa9b19a)
 
 
 ***************
