@@ -1,5 +1,4 @@
-<p align="center"><strong>_printf()</strong></p>
-
+# _printf()
 *************************
 # What is this project...
 
