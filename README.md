@@ -1,4 +1,4 @@
-<center># _printf()</center>
+<p align="center"><strong>_printf()</strong></p>
 
 *************************
 # What is this project...
@@ -32,7 +32,7 @@
 
 
 ***********************************
-# why did we create this project...
+# Why did we create this project...
 
 		- The purpose of creating this project was to gain hands-on experience in developing our
 		own function by rewriting the printf function. Through this endeavor, we aimed to deepen
@@ -42,7 +42,7 @@
 
 
 *******************
-# how to install...
+# How to install...
 
 You can download the files from our [github repository.](https://github.com/michaellgans/holbertonschool-printf)
 
@@ -71,16 +71,15 @@ You can download the files from our [github repository.](https://github.com/mich
 		- Upon successful return, all functions return the number of characters written, excluding the 
   		terminating null character ('\0') used to end the string.
   
-<center>The following is a flowchart depicting the process path of _printf().</center>	
-
+<p align="center">The following is a flowchart following the workflow of _printf().</p>
 ![Flowchart for _printf()](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/b0dc8d04-b24b-425e-b147-84cbab2be194)
 
-<center>The following is a diagram visualizing the theory behind variadic functions.</center>
+<p align="center">The following is a diagram visualizing the theory behind variadic functions.</p>
 
 ![Variadic Machine](https://github.com/michaellgans/holbertonschool-printf/assets/131380667/f49eff86-5bfb-4f81-8445-2744bd4ed734)
 
 ********************************************
-# differences between this printf and the original printf...
+# Differences between this _printf() and the original printf()...
 
                 - The primary distinction between our printf implementation and the original version
 		lies in the level of functionality they offer. Given the time constraints, our printf
@@ -90,7 +89,7 @@ You can download the files from our [github repository.](https://github.com/mich
 
 
 **********************
-# history of printf...
+# History of printf()...
 
 		- Early programming languages such as Fortran used special statements with completely
 		different syntax from other calculations to build formatting descriptions. In this example,
@@ -130,7 +129,7 @@ Origional printf() Code: [printf() code](http://sourceware.org/git/?p=glibc.git;
 
 
 ***************
-# created by...
+# Created by...
 
                 - This project was created by Michael Gans and Chris Gillis. If you would like to get
                 a hold of them please reach out via email to either michaellgans@hotmail.com or chris85gillis@gmail.com
